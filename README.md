@@ -21,10 +21,10 @@ Classes with fewer than 100 images in 2016–2019, and the non-plankton Beads cl
 |---|---|
 | `Proposal/APS360_EDA.ipynb` | Exploratory data analysis notebook (class counts, class distributions, imbalance, train vs test class mix) |
 | `Proposal/` | Proposal materials: project diagram and EDA notebook |
-| `EDA/class_dist_2016_2019.png`, `EDA/class_dist_2021.png` | Class distributions of the training (2016–2019) and test (2021) data |
-| `EDA/fig2_taxonomic_groups_2022.png` | Images per taxonomic group in the SYKE-plankton_IFCB_2022 release (2016–2019 images) |
-| `EDA/class_counts_2021.csv` | Images per class folder in the 2021 test set |
-| `EDA/resnet18_layers.jpg`, `EDA/resnet18_blocks.jpg` | ResNet-18 reference figures (see credits below) |
+| `Proposal/EDA/class_dist_2016_2019.png`, `Proposal/EDA/class_dist_2021.png` | Class distributions of the training (2016–2019) and test (2021) data |
+| `Proposal/EDA/fig2_taxonomic_groups_2022.png` | Images per taxonomic group in the SYKE-plankton_IFCB_2022 release (2016–2019 images) |
+| `Proposal/EDA/class_counts_2021.csv` | Images per class folder in the 2021 test set |
+| `Proposal/EDA/resnet18_layers.jpg`, `Proposal/EDA/resnet18_blocks.jpg` | ResNet-18 reference figures (see credits below) |
 | `Proposal/APS360 - Project Diagram - V2.pptx` | Project pipeline diagram (Figure 1 of the proposal) |
 
 ## Running the EDA notebook
@@ -35,6 +35,6 @@ Classes with fewer than 100 images in 2016–2019, and the non-plankton Beads cl
 
 ## Figure credits
 
-- `EDA/resnet18_layers.jpg`: F. Ramzan *et al.*, "A deep learning approach for automated diagnosis and multi-class classification of Alzheimer's disease stages using resting-state fMRI and residual neural networks," *Journal of Medical Systems*, vol. 44, p. 37, 2020, doi:10.1007/s10916-019-1475-2.
-- `EDA/resnet18_blocks.jpg`: S. Zhao, S. Zhou, and R. Chen, "Research on radionuclide identification method based on GASF and deep residual network," *Applied Sciences*, vol. 15, no. 3, p. 1218, 2025, doi:10.3390/app15031218 (CC BY 4.0).
+- `Proposal/EDA/resnet18_layers.jpg`: F. Ramzan *et al.*, "A deep learning approach for automated diagnosis and multi-class classification of Alzheimer's disease stages using resting-state fMRI and residual neural networks," *Journal of Medical Systems*, vol. 44, p. 37, 2020, doi:10.1007/s10916-019-1475-2.
+- `Proposal/EDA/resnet18_blocks.jpg`: S. Zhao, S. Zhou, and R. Chen, "Research on radionuclide identification method based on GASF and deep residual network," *Applied Sciences*, vol. 15, no. 3, p. 1218, 2025, doi:10.3390/app15031218 (CC BY 4.0).
 - Dataset: K. Kraft *et al.*, SYKE-plankton_IFCB_2022 and SYKE-plankton_IFCB_Utö_2021, B2SHARE, 2022.
