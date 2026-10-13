@@ -1,4 +1,4 @@
-# Early Warning of Harmful Algal Blooms with Deep Learning on Imaging Flow Cytometry Images
+# Phytoplankton Classification
 
 APS360 (University of Toronto) individual project · Emily (Jiarui) Hu
 
