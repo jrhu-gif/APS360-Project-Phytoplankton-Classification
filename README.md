@@ -25,13 +25,6 @@ Classes with fewer than 100 images in 2016–2019, and the non-plankton Beads cl
 | `Proposal/EDA/fig2_taxonomic_groups_2022.png` | Images per taxonomic group in the SYKE-plankton_IFCB_2022 release (2016–2019 images) |
 | `Proposal/EDA/class_counts_2021.csv` | Images per class folder in the 2021 test set |
 | `Proposal/EDA/resnet18_layers.jpg`, `Proposal/EDA/resnet18_blocks.jpg` | ResNet-18 reference figures (see credits below) |
-| `Proposal/APS360 - Project Diagram - V2.pptx` | Project pipeline diagram (Figure 1 of the proposal) |
-
-## Running the EDA notebook
-
-- **Google Colab:** open `Proposal/APS360_EDA.ipynb` in Colab. The first cell mounts Google Drive; set `DATA_2021` to the extracted 2021 folder in your Drive. If the folder is not found, the notebook falls back to the published 2021 class counts.
-- **Locally (Jupyter / VS Code):** set `DATA_2021` and `OUT` in the first cell and run all cells. Needs Python 3 and `matplotlib`.
-- **Colab with a local runtime:** start Jupyter on your own computer and choose *Connect to a local runtime* in Colab to use local files and your own GPU.
 
 ## Figure credits
 
