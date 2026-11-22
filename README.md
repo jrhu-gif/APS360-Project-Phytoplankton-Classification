@@ -2,7 +2,7 @@
 
 APS360 (University of Toronto) individual project · Emily (Jiarui) Hu
 
-A convolutional neural network (ImageNet-pretrained ResNet-18, fully fine-tuned) classifies phytoplankton images from an Imaging FlowCytobot (IFCB) into 38 expert-labelled SYKE classes. Each predicted class is grouped as a **HAB class** (potentially toxic cyanobacteria and dinoflagellates) or a **non-HAB class**, and predictions below a validation-tuned confidence threshold are labelled **uncertain**. A hand-crafted-feature random forest serves as the baseline.
+**HAB-Net**, a two-stream convolutional neural network of our own design (1.2 M parameters, trained from scratch), classifies phytoplankton images from an Imaging FlowCytobot (IFCB) into 38 expert-labelled SYKE classes. One stream is a compact CNN on the grayscale image; the other feeds size and shape measurements of the original (unresized) cell into the classifier, and the loss up-weights HAB examples. Each predicted class is grouped as a **HAB class** (potentially toxic cyanobacteria and dinoflagellates) or a **non-HAB class**, and predictions below a validation-tuned confidence threshold are labelled **uncertain**. Baselines: a random forest on hand-crafted features and an ImageNet-pretrained ResNet-18 (fine-tuned). The proposal planned ResNet-18 as the main model; after proposal feedback the main model became HAB-Net.
 
 ## Data
 
@@ -19,6 +19,7 @@ Classes with fewer than 100 images in 2016–2019, and the non-plankton Beads cl
 
 | Path | What it is |
 |---|---|
+| `Progress Report/` | Progress report materials: pipeline code, full-pipeline notebook, figures, data-audit summary (details in `Progress Report/README.md`) |
 | `Proposal/APS360_EDA.ipynb` | Exploratory data analysis notebook (class counts, class distributions, imbalance, train vs test class mix) |
 | `Proposal/` | Proposal materials: project diagram and EDA notebook |
 | `Proposal/EDA/class_dist_2016_2019.png`, `Proposal/EDA/class_dist_2021.png` | Class distributions of the training (2016–2019) and test (2021) data |
