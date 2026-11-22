@@ -1,0 +1,7 @@
+Unreadable / invalid files: 0
+
+Non-grayscale images: 0 {}
+
+Duplicate groups (identical bytes): 0
+  of which span 2016-19 AND 2021 (leakage): 0
+  of which have different labels: 0

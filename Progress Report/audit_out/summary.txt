@@ -1,0 +1,20 @@
+DATA AUDIT SUMMARY
+============================================================
+OK 2016-19 images                          63,074   (expected 63,074)
+OK 2016-19 classes                             50   (expected 50)
+OK 2021 labelled images                    57,207   (expected 57,207)
+OK 2021 unclassifiable images              94,028   (expected 94,028)
+OK retained classes (>=100, no Beads)          38   (expected 38)
+OK 2021 images in retained classes         56,890   (expected 56,890)
+
+Label mapping draft: exact=48, none (check by hand)=2
+Retained classes missing from 2021: Prorocentrum_cordatum
+
+Unreadable files: 0   Non-grayscale: 0
+Duplicate groups: 0  (cross-year: 0, conflicting labels: 0)
+
+Image size, retained 2016-19 classes (longest side):
+  p5=88  p25=104  p50=136  p75=208  p95=480  p99=784
+  share with longest side <= 64/128/160/224 px: 0% / 47% / 61% / 78%
+
+Outputs written to: C:\Users\withh\OneDrive\桌面\APS 360 Project\audit_out
